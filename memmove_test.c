@@ -57,6 +57,7 @@ void	memmove_test()
 
 int	main(int c, char **v)
 {
+	srand(time(NULL));
 	memmove_test();
 	return (0);
 }

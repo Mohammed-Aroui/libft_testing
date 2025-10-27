@@ -49,6 +49,7 @@ void	atoi_test()
 
 int	main(int c, char **v)
 {
+	srand(time(NULL));
 	atoi_test();
 	return (0);
 }
