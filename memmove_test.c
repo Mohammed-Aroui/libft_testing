@@ -5,6 +5,11 @@
 #include <stdlib.h>
 #include <time.h>
 
+int	random_number(int from, int to)
+{
+	return (rand() % (to - from + 1) + from);
+}
+
 void	memmove_test()
 {
 	const int TESTS = 100000; // number of random tests
